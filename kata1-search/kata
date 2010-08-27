@@ -1,0 +1,14 @@
+goal: track what happens with the path argument passed in
+
+/path<CR>nnn^*
+
+gg to get to the top of the file, repeat
+
+
+goal: having found where the path is being used to create files,
+      replace the code with saving the message
+      to the log file
+
+/path<CR>nnnc4jmessage(data)<C-[>kWW*wwww*nndjndj
+
+20ugg and repeat
