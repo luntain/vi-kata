@@ -1,0 +1,5 @@
+goal: log single email once, no matter how many recipients
+
+/Incom<CR>jdj<<jddOmessage("<C-[>13a*<C-[>
+
+20ugg and repeat
