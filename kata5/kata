@@ -1,0 +1,5 @@
+goal: change default port number to 25
+
+/port<CR><C-D>nnwwxx
+
+20ugg and repeat
