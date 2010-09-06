@@ -1,4 +1,5 @@
 goal: remove all the path mentions in the file
+means: search & delete
 
 /path<CR>dbdwnddnnddndbdf nddndjndf ndf ndbdwnn
 

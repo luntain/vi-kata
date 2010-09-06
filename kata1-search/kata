@@ -2,6 +2,8 @@ goal: having found where the path is being used to create files,
       replace the code with saving the message
       to the log file
 
-/path<CR>nnnc4jmessage(data)<C-[>kWW*wwww*nndjndj
+means: search, visual line mode, WORD
+
+/path<CR>nnncVjjjjcmessage(data)<C-[>kWW*wwww*nndjndj
 
 20ugg and repeat
