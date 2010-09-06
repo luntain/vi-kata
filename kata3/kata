@@ -1,5 +1,6 @@
 goal: log single email once, no matter how many recipients
+means: indentation, multi-count insert
 
-/Incom<CR>jdj<<jddOmessage("<C-[>13a*<C-[>
+/Incom<CR>jdj<<jddOmessage("")<C-[>h13i*<C-[>
 
 20ugg and repeat
