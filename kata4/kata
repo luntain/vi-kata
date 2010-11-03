@@ -1,5 +1,5 @@
-goal: log single email once, no matter how many recipients
+goal: change default port number to 25
 
-/Incom<CR>jdj<<jddOmessage("<C-[>13a*<C-[>
+/port<CR><C-D>nnwwxx
 
 20ugg and repeat

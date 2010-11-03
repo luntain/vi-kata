@@ -20,11 +20,9 @@ class FakeServer(smtpd.SMTPServer):
         smtpd.SMTPServer.__init__(self, localaddr, remoteaddr)
 
     def process_message(self, peer, mailfrom, rcpttos, data):
+        message("*************")
         message("Incoming mail")
-        for recipient in rcpttos:
-            message("Capturing mail to %s" % recipient)
-            message(data)
-            message("Mail to %s saved" % recipient)
+        message(data)
         message("Incoming mail dispatched")
 
 
