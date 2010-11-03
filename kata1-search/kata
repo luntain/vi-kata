@@ -4,6 +4,6 @@ goal: having found where the path is being used to create files,
 
 means: search, visual line mode, WORD
 
-/path<CR>nnncVjjjjcmessage(data)<C-[>kWW*wwww*nndjndj
+/path<CR>nnnVjjjjcmessage(data)<C-[>kWW*wwww*nndjndj
 
 20ugg and repeat
